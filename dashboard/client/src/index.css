@@ -1,8 +1,6 @@
-/* 
- * NovaGrant Dashboard — Design System: "Clean Operator"
- * Philosophy: Swiss Grid + modern SaaS — clinical precision with warm accents
+/*
+ * Bookas Client Dashboard — Design System
  * Typography: Syne (headings) + DM Sans (body) + JetBrains Mono (data)
- * Colors: Off-white base, deep navy headers, forest green revenue, amber warnings
  */
 
 @import "tailwindcss";
@@ -157,9 +155,14 @@
   .badge-p2 { background: oklch(0.97 0.06 75); color: oklch(0.55 0.18 75); }
   .badge-p3 { background: oklch(0.96 0.04 145); color: oklch(0.40 0.17 145); }
 
-  /* Niche color coding */
-  .niche-mental { color: oklch(0.45 0.18 240); background: oklch(0.95 0.04 240); }
-  .niche-animals { color: oklch(0.40 0.17 145); background: oklch(0.95 0.05 145); }
-  .niche-arts { color: oklch(0.50 0.18 290); background: oklch(0.95 0.04 290); }
-  .niche-volunteer { color: oklch(0.55 0.18 75); background: oklch(0.97 0.06 75); }
+}
+
+@layer utilities {
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 }
