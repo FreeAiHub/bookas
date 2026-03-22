@@ -3,35 +3,23 @@
 # Использование: bash dashboard/deploy.sh
 set -e
 
-# ── Настройки ──────────────────────────────────────────────────────────────
-# Токен аккаунта Netlify (один для всех проектов)
 TOKEN="nfp_jY4dEVWzqtSV6GGAPnb6ZoqMxr7XgbbKb3f4"
-
-# SITE_ID: получить после первого деплоя через Netlify UI
-# app.netlify.com → Sites → bookas-dashboard → Site configuration → Site ID
 SITE_ID="cbe786ff-e330-4e70-9aee-8979011e48ee"
 
-PNPM="/Users/investing/.nvm/versions/node/v20.19.5/lib/node_modules/corepack/shims/pnpm"
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+# pnpm: локальный путь или системный
+LOCAL_PNPM="/Users/investing/.nvm/versions/node/v20.19.5/lib/node_modules/corepack/shims/pnpm"
+if [ -f "$LOCAL_PNPM" ]; then PNPM="$LOCAL_PNPM"; else PNPM="pnpm"; fi
 
-# ── Сборка ─────────────────────────────────────────────────────────────────
-echo "Building bookas-dashboard..."
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR"
+
+echo "Building bookas-dashboard..."
 $PNPM run build
 
-# ── Деплой ─────────────────────────────────────────────────────────────────
 echo "Deploying to Netlify..."
+npx netlify-cli@latest deploy --prod \
+  --auth "$TOKEN" \
+  --site "$SITE_ID" \
+  --dir dist/public
 
-if [ "$SITE_ID" = "PASTE_SITE_ID_HERE" ]; then
-  echo "⚠️  SITE_ID не задан — деплоим как новый сайт (получи ID после деплоя)"
-  npx netlify-cli@latest deploy --prod \
-    --auth "$TOKEN" \
-    --dir dist/public
-else
-  npx netlify-cli@latest deploy --prod \
-    --auth "$TOKEN" \
-    --site "$SITE_ID" \
-    --dir dist/public
-fi
-
-echo "✅ Готово!"
+echo "✅ Готово! https://bookas-dashboard.netlify.app"
