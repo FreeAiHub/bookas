@@ -9,7 +9,7 @@ TOKEN="nfp_jY4dEVWzqtSV6GGAPnb6ZoqMxr7XgbbKb3f4"
 
 # SITE_ID: получить после первого деплоя через Netlify UI
 # app.netlify.com → Sites → bookas-dashboard → Site configuration → Site ID
-SITE_ID="PASTE_SITE_ID_HERE"
+SITE_ID="cbe786ff-e330-4e70-9aee-8979011e48ee"
 
 PNPM="/Users/investing/.nvm/versions/node/v20.19.5/lib/node_modules/corepack/shims/pnpm"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
