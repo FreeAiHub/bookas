@@ -1,0 +1,38 @@
+[
+  {
+    "label_ua": "Готових завдань",
+    "label_en": "Tasks done",
+    "label_pt": "Tarefas concluídas",
+    "value": "3/17",
+    "sub_ua": "Інфраструктура готова",
+    "sub_en": "Infrastructure ready",
+    "sub_pt": "Infraestrutura pronta"
+  },
+  {
+    "label_ua": "Головна подія",
+    "label_en": "Next big event",
+    "label_pt": "Próximo grande evento",
+    "value": "23 abr",
+    "sub_ua": "Dia Mundial do Livro",
+    "sub_en": "Dia Mundial do Livro",
+    "sub_pt": "Dia Mundial do Livro"
+  },
+  {
+    "label_ua": "Бюджет інструментів",
+    "label_en": "Tools budget",
+    "label_pt": "Orçamento de ferramentas",
+    "value": "€250",
+    "sub_ua": "на місяць",
+    "sub_en": "per month",
+    "sub_pt": "por mês"
+  },
+  {
+    "label_ua": "Загальний прогрес",
+    "label_en": "Overall progress",
+    "label_pt": "Progresso geral",
+    "value": "18%",
+    "sub_ua": "Фаза 2 активна",
+    "sub_en": "Phase 2 active",
+    "sub_pt": "Fase 2 ativa"
+  }
+]

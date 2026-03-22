@@ -1,0 +1,121 @@
+{
+  "currentStage": 2,
+  "stages": [
+    {
+      "id": 1,
+      "status": "completed",
+      "dateRange": "1–17 Mar 2026",
+      "ua": {
+        "title": "Інфраструктура",
+        "deliverables": [
+          "API клієнт WooCommerce",
+          "Автосинхронізація обкладинок по ISBN",
+          "Структура проекту та конфігурація"
+        ]
+      },
+      "en": {
+        "title": "Infrastructure",
+        "deliverables": [
+          "WooCommerce API client",
+          "Auto cover sync by ISBN",
+          "Project structure & configuration"
+        ]
+      },
+      "pt": {
+        "title": "Infraestrutura",
+        "deliverables": [
+          "Cliente API WooCommerce",
+          "Sincronização automática de capas por ISBN",
+          "Estrutura do projeto e configuração"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "active",
+      "dateRange": "18 Mar – 15 Apr 2026",
+      "ua": {
+        "title": "Автоматизація",
+        "deliverables": [
+          "Email-кампанії через Brevo",
+          "Генерація постів із Excel Жоана",
+          "Інтеграція Claude API для блогу"
+        ]
+      },
+      "en": {
+        "title": "Automation",
+        "deliverables": [
+          "Email campaigns via Brevo",
+          "Post generation from João's Excel",
+          "Claude API blog integration"
+        ]
+      },
+      "pt": {
+        "title": "Automação",
+        "deliverables": [
+          "Campanhas de email via Brevo",
+          "Geração de posts do Excel do João",
+          "Integração Claude API para o blog"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "upcoming",
+      "dateRange": "16 Apr – 10 May 2026",
+      "ua": {
+        "title": "SEO + Контент",
+        "deliverables": [
+          "Трекінг ключових слів PT-ринку",
+          "Перевірка та оптимізація sitemap",
+          "Автоматичні описи книг"
+        ]
+      },
+      "en": {
+        "title": "SEO + Content",
+        "deliverables": [
+          "PT market keyword tracking",
+          "Sitemap health check & optimization",
+          "Automated book descriptions"
+        ]
+      },
+      "pt": {
+        "title": "SEO + Conteúdo",
+        "deliverables": [
+          "Rastreamento de palavras-chave do mercado PT",
+          "Verificação e otimização do sitemap",
+          "Descrições automáticas de livros"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "upcoming",
+      "dateRange": "11–31 May 2026",
+      "ua": {
+        "title": "Аналітика + Масштаб",
+        "deliverables": [
+          "Автоматичний тижневий звіт (трафік + продажі)",
+          "Маркетинговий календар 2026",
+          "Оцінка ROI інструментів"
+        ]
+      },
+      "en": {
+        "title": "Analytics + Scale",
+        "deliverables": [
+          "Automated weekly report (traffic + sales)",
+          "Marketing calendar 2026",
+          "Tools ROI evaluation"
+        ]
+      },
+      "pt": {
+        "title": "Análise + Escala",
+        "deliverables": [
+          "Relatório semanal automatizado (tráfego + vendas)",
+          "Calendário de marketing 2026",
+          "Avaliação do ROI das ferramentas"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "clientName": "Bookas",
+  "projectCode": "BOOKAS.PT",
+  "tagline": "Automatização da livraria online portuguesa",
+  "updatedAt": "2026-03-22",
+  "tags": ["WooCommerce", "Python", "Phase 2", "Março 2026"],
+  "languages": ["ua", "en", "pt"],
+  "defaultLang": "en",
+  "ui": {
+    "ua": {
+      "pain": "Проблеми",
+      "tasks": "Завдання",
+      "stages": "Етапи",
+      "metrics": "Метрики",
+      "updated": "Оновлено",
+      "filterAll": "Всі",
+      "statusReady": "Готово",
+      "statusInProgress": "В роботі",
+      "statusPending": "Очікує",
+      "statusBlocked": "Заблоковано",
+      "deadlineIn": "до дедлайну",
+      "days": "дн.",
+      "search": "Пошук задач..."
+    },
+    "en": {
+      "pain": "Problems",
+      "tasks": "Tasks",
+      "stages": "Stages",
+      "metrics": "Metrics",
+      "updated": "Updated",
+      "filterAll": "All",
+      "statusReady": "Done",
+      "statusInProgress": "In Progress",
+      "statusPending": "Pending",
+      "statusBlocked": "Blocked",
+      "deadlineIn": "until deadline",
+      "days": "d.",
+      "search": "Search tasks..."
+    },
+    "pt": {
+      "pain": "Problemas",
+      "tasks": "Tarefas",
+      "stages": "Etapas",
+      "metrics": "Métricas",
+      "updated": "Atualizado",
+      "filterAll": "Tudo",
+      "statusReady": "Concluído",
+      "statusInProgress": "Em andamento",
+      "statusPending": "Pendente",
+      "statusBlocked": "Bloqueado",
+      "deadlineIn": "até o prazo",
+      "days": "d.",
+      "search": "Buscar tarefas..."
+    }
+  }
+}

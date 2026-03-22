@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "icon": "🔴",
+      "impact": "high",
+      "ua": {
+        "title": "Ручне завантаження обкладинок",
+        "description": "До автоматизації — кожна книга завантажувалась вручну до WooCommerce"
+      },
+      "en": {
+        "title": "Manual cover image uploads",
+        "description": "Before automation — every book cover uploaded to WooCommerce manually"
+      },
+      "pt": {
+        "title": "Upload manual de capas",
+        "description": "Antes da automação — cada capa de livro carregada manualmente no WooCommerce"
+      }
+    },
+    {
+      "icon": "🔴",
+      "impact": "high",
+      "ua": {
+        "title": "Email-кампанії вручну",
+        "description": "Немає автогенерації розсилок із тижневого каталогу Жоана"
+      },
+      "en": {
+        "title": "Manual email campaigns",
+        "description": "No auto-generation of email campaigns from João's weekly catalog"
+      },
+      "pt": {
+        "title": "Campanhas de email manuais",
+        "description": "Sem geração automática de campanhas a partir do catálogo semanal do João"
+      }
+    },
+    {
+      "icon": "🟡",
+      "impact": "medium",
+      "ua": {
+        "title": "Соцмережі без автоматизації",
+        "description": "Пости для Instagram та Facebook створюються вручну щотижня"
+      },
+      "en": {
+        "title": "Social media without automation",
+        "description": "Instagram and Facebook posts created manually every week"
+      },
+      "pt": {
+        "title": "Redes sociais sem automação",
+        "description": "Posts para Instagram e Facebook criados manualmente toda semana"
+      }
+    },
+    {
+      "icon": "🟡",
+      "impact": "medium",
+      "ua": {
+        "title": "Контент португальською вручну",
+        "description": "Статті блогу та описи товарів потребують ручного написання"
+      },
+      "en": {
+        "title": "Portuguese content is manual",
+        "description": "Blog articles and product descriptions require manual writing"
+      },
+      "pt": {
+        "title": "Conteúdo em português é manual",
+        "description": "Artigos do blog e descrições de produtos exigem escrita manual"
+      }
+    },
+    {
+      "icon": "🟡",
+      "impact": "medium",
+      "ua": {
+        "title": "SEO без трекінгу",
+        "description": "Немає моніторингу позицій по ключових словах португальського ринку"
+      },
+      "en": {
+        "title": "SEO without tracking",
+        "description": "No keyword position monitoring for the Portuguese market"
+      },
+      "pt": {
+        "title": "SEO sem rastreamento",
+        "description": "Sem monitoramento de posições de palavras-chave para o mercado português"
+      }
+    }
+  ]
+}
