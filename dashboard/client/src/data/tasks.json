@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-22",
+  "updatedAt": "2026-03-26",
   "categories": {
     "ua": {
       "setup": "Налаштування",
@@ -30,109 +30,103 @@
     }
   },
   "items": [
-    {
-      "id": 1, "gh": 1, "category": "seo", "status": "pending", "priority": 1,
+    { "id": 1, "gh": 1, "category": "seo", "status": "pending", "priority": 1,
       "en": "Install & configure Rank Math Pro on bookas.pt",
       "ua": "Встановити та налаштувати Rank Math Pro на bookas.pt",
-      "pt": "Instalar e configurar Rank Math Pro no bookas.pt"
-    },
-    {
-      "id": 2, "gh": 2, "category": "seo", "status": "pending", "priority": 1,
+      "pt": "Instalar e configurar Rank Math Pro no bookas.pt" },
+    { "id": 2, "gh": 2, "category": "seo", "status": "pending", "priority": 1,
       "en": "Setup Google Search Console + submit sitemap",
       "ua": "Налаштувати Google Search Console та подати sitemap",
-      "pt": "Configurar Google Search Console + enviar sitemap"
-    },
-    {
-      "id": 3, "gh": 3, "category": "content", "status": "pending", "priority": 1,
+      "pt": "Configurar Google Search Console + enviar sitemap" },
+    { "id": 3, "gh": 3, "category": "content", "status": "pending", "priority": 1,
       "en": "First blog article — Novos Lançamentos Março 2026",
       "ua": "Перша стаття блогу — Novos Lançamentos Março 2026",
-      "pt": "Primeiro artigo do blog — Novos Lançamentos Março 2026"
-    },
-    {
-      "id": 4, "gh": 4, "category": "setup", "status": "in_progress", "priority": 1,
+      "pt": "Primeiro artigo do blog — Novos Lançamentos Março 2026" },
+    { "id": 4, "gh": 4, "category": "setup", "status": "in_progress", "priority": 1,
       "en": "Setup welcome email sequence in Brevo",
       "ua": "Налаштувати welcome-послідовність листів у Brevo",
-      "pt": "Configurar sequência de boas-vindas no Brevo"
-    },
-    {
-      "id": 5, "gh": 5, "category": "setup", "status": "pending", "priority": 2,
+      "pt": "Configurar sequência de boas-vindas no Brevo" },
+    { "id": 5, "gh": 5, "category": "setup", "status": "pending", "priority": 2,
       "en": "Google Merchant Center — product feed configuration",
       "ua": "Google Merchant Center — налаштування фіду товарів",
-      "pt": "Google Merchant Center — configuração do feed de produtos"
-    },
-    {
-      "id": 6, "gh": 6, "category": "campaigns", "status": "ready", "priority": 1,
+      "pt": "Google Merchant Center — configuração do feed de produtos" },
+    { "id": 6, "gh": 6, "category": "campaigns", "status": "ready", "priority": 1,
       "en": "Dia da Mulher — March 8",
       "ua": "День жінок — 8 березня",
-      "pt": "Dia da Mulher — 8 de março"
-    },
-    {
-      "id": 7, "gh": 7, "category": "campaigns", "status": "ready", "priority": 1,
+      "pt": "Dia da Mulher — 8 de março" },
+    { "id": 7, "gh": 7, "category": "campaigns", "status": "ready", "priority": 1,
       "en": "Dia Mundial da Poesia — March 21",
       "ua": "Всесвітній день поезії — 21 березня",
-      "pt": "Dia Mundial da Poesia — 21 de março"
-    },
-    {
-      "id": 8, "gh": 8, "category": "content", "status": "pending", "priority": 1,
+      "pt": "Dia Mundial da Poesia — 21 de março" },
+    { "id": 8, "gh": 8, "category": "content", "status": "pending", "priority": 1,
       "en": "Banners for April — Deadline March 28",
       "ua": "Банери на квітень — дедлайн 28 березня",
       "pt": "Banners de abril — prazo 28 de março",
-      "deadline": "2026-03-28"
-    },
-    {
-      "id": 9, "gh": 9, "category": "campaigns", "status": "pending", "priority": 1,
+      "deadline": "2026-03-28" },
+    { "id": 9, "gh": 9, "category": "campaigns", "status": "pending", "priority": 1,
       "en": "⭐ Dia Mundial do Livro — April 23 (MAIN EVENT)",
       "ua": "⭐ Всесвітній день книги — 23 квітня (ГОЛОВНА ПОДІЯ)",
       "pt": "⭐ Dia Mundial do Livro — 23 de abril (EVENTO PRINCIPAL)",
-      "deadline": "2026-04-23"
-    },
-    {
-      "id": 10, "gh": 10, "category": "campaigns", "status": "pending", "priority": 2,
+      "deadline": "2026-04-23" },
+    { "id": 10, "gh": 10, "category": "campaigns", "status": "pending", "priority": 2,
       "en": "Dia da Liberdade — April 25",
       "ua": "День Свободи — 25 квітня",
-      "pt": "Dia da Liberdade — 25 de abril"
-    },
-    {
-      "id": 11, "gh": 11, "category": "recurring", "status": "in_progress", "priority": 1,
+      "pt": "Dia da Liberdade — 25 de abril" },
+    { "id": 11, "gh": 11, "category": "recurring", "status": "in_progress", "priority": 1,
       "en": "Weekly email campaign — every Tuesday",
       "ua": "Тижнева email-кампанія — щовівторка",
-      "pt": "Campanha de email semanal — toda terça-feira"
-    },
-    {
-      "id": 12, "gh": 12, "category": "recurring", "status": "in_progress", "priority": 1,
+      "pt": "Campanha de email semanal — toda terça-feira" },
+    { "id": 12, "gh": 12, "category": "recurring", "status": "in_progress", "priority": 1,
       "en": "Weekly social media posts — 3–5 per week",
       "ua": "Тижневі пости в соцмережах — 3–5 на тиждень",
-      "pt": "Posts semanais nas redes sociais — 3–5 por semana"
-    },
-    {
-      "id": 13, "gh": 13, "category": "analytics", "status": "pending", "priority": 1,
+      "pt": "Posts semanais nas redes sociais — 3–5 por semana" },
+    { "id": 13, "gh": 13, "category": "analytics", "status": "pending", "priority": 1,
       "en": "Friday performance report to João",
       "ua": "П'ятничний звіт ефективності для Жоана",
-      "pt": "Relatório de desempenho para o João — toda sexta"
-    },
-    {
-      "id": 14, "gh": 14, "category": "automation", "status": "pending", "priority": 2,
+      "pt": "Relatório de desempenho para o João — toda sexta" },
+    { "id": 14, "gh": 14, "category": "automation", "status": "pending", "priority": 2,
       "en": "Social post generator from new releases Excel",
       "ua": "Генератор постів із Excel нових надходжень",
-      "pt": "Gerador de posts a partir do Excel de novos lançamentos"
-    },
-    {
-      "id": 15, "gh": 15, "category": "automation", "status": "pending", "priority": 2,
+      "pt": "Gerador de posts a partir do Excel de novos lançamentos" },
+    { "id": 15, "gh": 15, "category": "automation", "status": "pending", "priority": 2,
       "en": "Blog article generator — Claude API pipeline",
       "ua": "Генератор статей блогу — pipeline через Claude API",
-      "pt": "Gerador de artigos do blog — pipeline Claude API"
-    },
-    {
-      "id": 16, "gh": 16, "category": "seo", "status": "pending", "priority": 2,
+      "pt": "Gerador de artigos do blog — pipeline Claude API" },
+    { "id": 16, "gh": 16, "category": "seo", "status": "pending", "priority": 2,
       "en": "Link building tests — Month 2 (€80 budget)",
       "ua": "Тести нарощування посилань — Місяць 2 (€80)",
-      "pt": "Testes de link building — Mês 2 (orçamento €80)"
-    },
-    {
-      "id": 17, "gh": null, "category": "content", "status": "in_progress", "priority": 1,
-      "en": "SMM content generation services research",
-      "ua": "Дослідження сервісів генерації контенту для SMM",
-      "pt": "Pesquisa de serviços de geração de conteúdo para SMM"
-    }
+      "pt": "Testes de link building — Mês 2 (orçamento €80)" },
+    { "id": 17, "gh": null, "category": "content", "status": "ready", "priority": 1,
+      "en": "SMM content generation services research — DONE",
+      "ua": "Дослідження сервісів генерації контенту для SMM — ГОТОВО",
+      "pt": "Pesquisa de serviços de geração de conteúdo para SMM — CONCLUÍDO" },
+    { "id": 18, "gh": null, "category": "campaigns", "status": "pending", "priority": 1,
+      "en": "Páscoa campaign — April 3–5 (school holidays, children's books)",
+      "ua": "Кампанія Великодня — 3–5 квітня (канікули, дитячі книги)",
+      "pt": "Campanha de Páscoa — 3–5 de abril (férias escolares, livros infantis)",
+      "deadline": "2026-04-03" },
+    { "id": 19, "gh": null, "category": "campaigns", "status": "pending", "priority": 1,
+      "en": "Dia da Mãe campaign — May 4 (gift guide: books for moms)",
+      "ua": "Кампанія Дня матері — 4 травня (подарунковий гід: книги для мам)",
+      "pt": "Campanha Dia da Mãe — 4 de maio (guia de presentes: livros para mães)",
+      "deadline": "2026-05-04" },
+    { "id": 20, "gh": null, "category": "campaigns", "status": "pending", "priority": 1,
+      "en": "Feira do Livro de Lisboa — May 27 preparation (biggest book event of the year)",
+      "ua": "Підготовка до Feira do Livro de Lisboa — 27 травня (найбільша книжкова подія року)",
+      "pt": "Preparação Feira do Livro de Lisboa — 27 de maio (maior evento do ano)",
+      "deadline": "2026-05-20" },
+    { "id": 21, "gh": null, "category": "campaigns", "status": "pending", "priority": 2,
+      "en": "Pre-order tracking — monitor authors & upcoming releases for pre-order campaigns",
+      "ua": "Відстеження передзамовлень — моніторинг авторів та майбутніх видань",
+      "pt": "Rastreamento de pré-encomendas — monitorar autores e lançamentos futuros",
+      "deadline": null },
+    { "id": 22, "gh": null, "category": "setup", "status": "pending", "priority": 2,
+      "en": "Setup Google Drive structure — manual migration of project docs",
+      "ua": "Налаштування структури Google Drive — ручна міграція документів проекту",
+      "pt": "Configurar estrutura Google Drive — migração manual dos documentos do projeto" },
+    { "id": 23, "gh": null, "category": "content", "status": "pending", "priority": 1,
+      "en": "Setup SMM stack: Canva Pro + Buffer Free",
+      "ua": "Налаштування SMM стека: Canva Pro + Buffer Free",
+      "pt": "Configurar stack SMM: Canva Pro + Buffer Free" }
   ]
 }
