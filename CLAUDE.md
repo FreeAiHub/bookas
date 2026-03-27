@@ -86,7 +86,7 @@ bash dashboard/deploy.sh
 
 | Параметр | Значение |
 |---|---|
-| **Netlify токен** | `nfp_jY4dEVWzqtSV6GGAPnb6ZoqMxr7XgbbKb3f4` (один для всех проектов) |
+| **Netlify токен** | см. MY_SETUP.md (не хранить в git) |
 | **SITE_ID** | Заполнить в `dashboard/deploy.sh` после первого деплоя через UI |
 | **Base directory** | `dashboard` |
 | **Build command** | `pnpm install && pnpm run build` |
