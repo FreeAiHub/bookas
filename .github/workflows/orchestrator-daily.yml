@@ -1,0 +1,84 @@
+name: Оркестратор — Ежедневный статус
+
+on:
+  schedule:
+    # Каждый день в 06:30 UTC (07:30 WEST) — за 30 мин до первой публикации
+    - cron: "30 6 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    outputs:
+      urgent: ${{ steps.report.outputs.urgent }}
+      summary: ${{ steps.report.outputs.summary }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Запустить оркестратор
+        id: report
+        run: |
+          python3 automation/orchestrator.py --json > /tmp/report.json
+          python3 automation/orchestrator.py
+
+          # Записываем количество urgent-задач в outputs
+          URGENT=$(python3 -c "
+          import json
+          r = json.load(open('/tmp/report.json'))
+          print(r['summary']['urgent_count'])
+          ")
+          echo "urgent=$URGENT" >> $GITHUB_OUTPUT
+
+          SUMMARY=$(python3 -c "
+          import json
+          r = json.load(open('/tmp/report.json'))
+          alerts = r['alerts']
+          if not alerts:
+              print('Всё в порядке — никаких задач.')
+          else:
+              msgs = [a['message'] for a in alerts[:3]]
+              print(' | '.join(msgs))
+          ")
+          echo "summary=$SUMMARY" >> $GITHUB_OUTPUT
+
+      - name: Создать Issue если есть срочные задачи
+        if: steps.report.outputs.urgent > '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().slice(0,10);
+            const summary = `${{ steps.report.outputs.summary }}`;
+            const urgent = ${{ steps.report.outputs.urgent }};
+
+            // Не дублируем — ищем открытые issues за сегодня
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'orchestrator'
+            });
+
+            const todayIssue = existing.data.find(i => i.title.includes(today));
+            if (todayIssue) {
+              console.log(`Issue за сегодня уже есть: #${todayIssue.number}`);
+              return;
+            }
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🔔 [${today}] Bookas: ${urgent} срочных задач`,
+              body: `## Ежедневный отчёт оркестратора\n\n**${summary}**\n\nЗапусти локально для деталей:\n\`\`\`bash\npython3 automation/orchestrator.py\n\`\`\`\n\n_Автоматически создан в ${today}_`,
+              labels: ['orchestrator']
+            });

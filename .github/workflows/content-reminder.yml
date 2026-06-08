@@ -1,0 +1,80 @@
+name: Напоминание — João список новинок
+
+on:
+  schedule:
+    # Каждый четверг в 15:00 UTC (16:00 WEST)
+    - cron: "0 15 * * 4"
+  workflow_dispatch: {}
+
+jobs:
+  check-and-notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Проверить заблокированные посты
+        id: check
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          from pathlib import Path
+
+          queue = json.loads(Path("buffer/posts_queue.json").read_text())
+          blocked = [p for p in queue if p.get("blocked") and p.get("joao_required")]
+
+          if blocked:
+              lines = []
+              for p in blocked:
+                  lines.append(f"  POST #{p['id']} — {p['scheduled_at'][:10]}: {p.get('notes','')}")
+              print("BLOCKED_POSTS<<EOF")
+              print("\n".join(lines))
+              print("EOF")
+              with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                  f.write(f"has_blocked=true\n")
+                  f.write(f"count={len(blocked)}\n")
+          else:
+              with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                  f.write("has_blocked=false\n")
+                  f.write("count=0\n")
+          EOF
+
+      - name: Создать GitHub Issue с напоминанием
+        if: steps.check.outputs.has_blocked == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const count = ${{ steps.check.outputs.count }};
+            const today = new Date().toISOString().slice(0,10);
+
+            // Проверяем, нет ли уже открытого issue
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'joao-required'
+            });
+
+            if (issues.data.length > 0) {
+              console.log(`Issue уже открыт (#${issues.data[0].number}) — пропускаю`);
+              return;
+            }
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📦 [${today}] João — нужен список новинок (${count} поста ждут)`,
+              body: `## Действие требуется\n\nEsperando lista de novidades de João.\n\n**${count}** поста заблокированы в \`buffer/posts_queue.json\`.\n\n### Что сделать:\n1. Получить список новинок от João\n2. Заполнить плейсхолдеры \`[TÍTULO]\` / \`[AUTOR]\`\n3. Убрать \`"blocked": true\` у постов\n4. Запустить: \`python buffer/schedule_posts.py\`\n5. Закрыть этот issue\n\n_Автоматически создан workflow \`content-reminder\`_`,
+              labels: ['joao-required']
+            });
+            console.log(`Issue создан: ${count} заблокированных поста`);

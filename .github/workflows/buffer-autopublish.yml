@@ -1,0 +1,51 @@
+name: Buffer — Авто-публикация очереди
+
+on:
+  schedule:
+    # Каждый день в 07:00 UTC (08:00 WEST / 09:00 CEST)
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Тестовый режим (не публиковать)"
+        type: boolean
+        default: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Publish pending posts
+        working-directory: buffer
+        env:
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+          BUFFER_ORG_ID: ${{ secrets.BUFFER_ORG_ID }}
+          BUFFER_CHANNEL_ID_IG: ${{ secrets.BUFFER_CHANNEL_ID_IG }}
+          BUFFER_CHANNEL_ID_FB: ${{ secrets.BUFFER_CHANNEL_ID_FB }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: python schedule_posts.py
+
+      - name: Commit updated queue (buffer_ids)
+        run: |
+          git config user.name "bookas-bot"
+          git config user.email "bot@bookas.pt"
+          git add buffer/posts_queue.json
+          if git diff --staged --quiet; then
+            echo "Нет изменений в очереди — всё уже опубликовано"
+          else
+            git commit -m "auto: buffer publish $(date -u +'%Y-%m-%d')"
+            git push
+          fi
