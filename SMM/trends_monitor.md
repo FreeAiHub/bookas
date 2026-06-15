@@ -58,6 +58,20 @@
 - Clássicos curtos (A Metamorfose, Noites Brancas — тренд на короткое)
 - Autores portugueses (Saramago, Pessoa, Eça — вечная классика в новой подаче)
 
+### TOP 10 mais vendidos — Portugal (15 junho 2026, via Portal da Literatura):
+1. **O Divórcio** — Freida McFadden (thriller psicológico, BookTok queen)
+2. **Da Minha Janela** — Luísa Sobral (cantora portuguesa que escreveu livro!)
+3. **Noites Brancas** — Dostoievski (clássico curto, tendência confirmada)
+4. **Ela, Metafisicamente Doutro Mundo** — Pedro Freitas
+5. **O Meu Primeiro Apocalipse** — Rodrigo Guedes de Carvalho
+6. **O Hospital de Alfaces** — Pedro Chagas Freitas
+7. **As Filhas do Terramoto** — Domingos Amaral (ficção histórica, terramoto 1755)
+8. **Barriga de Aluguer** — Freida McFadden (2ª no top 10!)
+9. **Morrer na Praia** — Leonardo Padura
+10. **A Obra Prima** — Daniel Silva
+
+**Destaque:** Freida McFadden tem 2 livros em top 10 — oportunidade de formato "duplo thriller".
+
 ---
 
 ## Конкурентный анализ — Livrarias Online PT
@@ -123,6 +137,9 @@ Tens na tua prateleira? 📚
 |------|-------|-----------------|-------------|
 | 2026-06-08 | TikTok/IG research | BookTok PT: 140M+ views em #BookTokPortugal | Criado este ficheiro |
 | 2026-06-08 | Bertrand/FNAC/Wook | Clássicos curtos voltando ao top; Rita da Nova viral | Adicionar ao próximo plano de conteúdo |
+| 2026-06-15 | Portal da Literatura top10 | Freida McFadden domina com 2 livros (#1 O Divórcio, #8 Barriga de Aluguer); Luísa Sobral (cantora PT) em #2 com estreia literária; Noites Brancas confirma tendência de clássicos curtos | Post "duplo thriller McFadden" + post celebração Luísa Sobral; clássico curto com Noites Brancas |
+| 2026-06-15 | Bertrand/FNAC/Wook pesquisa | Wook 20% desconto em junho; Feira do Livro de Lisboa encerrou a 14/06 — momento "pós-Feira" ativo; FNAC com landing "livros mais antecipados de 2026" | Post UGC: "O que compraste na Feira do Livro?" + sugestões pós-Feira em bookas.pt |
+| 2026-06-15 | TikTok/BookTok PT | Formatos virais confirmados: hook emocional 3 seg, book stack temático, "se gostaste de X"; hashtag mix ideal: 1 viral (#BookTok) + 2-3 nicho (#livrosportugal #BookTokPortugal) + 1 marca (#Bookas) | Aplicar mix de hashtags em todos os próximos posts |
 
 ---
 
