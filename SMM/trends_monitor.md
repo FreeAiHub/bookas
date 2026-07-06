@@ -40,7 +40,7 @@
 
 ---
 
-## Трендовые форматы (актуально на июнь 2026)
+## Трендовые форматы (актуально на июль 2026)
 
 ### Что работает в BookTok PT:
 
@@ -51,9 +51,11 @@
 5. **Unboxing de compras** — "O que comprei na Feira do Livro"
 6. **Rating wrap-up** — итог месяца: что прочитал, оценки
 
-### Жанры в топе (2026):
+### Жанры в топе (julho 2026):
+- **Dark Romance** (НОВЫЙ #1) — «Caro Leitor» Tate James, Mindf*ck Series; формула: dark academia + enemies to lovers + why choose + sociedades secretas
+- **Thriller psicológico** — Freida McFadden феномен: 4-5 книг одновременно в топ PT; «A Criada Está a Ver», «Barriga de Aluguer», «Querida Debbie»
 - Romance (Colleen Hoover-эффект продолжается)
-- Thriller português (Rita da Nova, "Todas as Famílias Felizes")
+- Thriller português (Rita da Nova)
 - Dark academia / fantasy (Quarta Asa, Rebecca Yaros)
 - Clássicos curtos (A Metamorfose, Noites Brancas — тренд на короткое)
 - Autores portugueses (Saramago, Pessoa, Eça — вечная классика в новой подаче)
@@ -140,6 +142,9 @@ Tens na tua prateleira? 📚
 | 2026-06-15 | Portal da Literatura top10 | Freida McFadden domina com 2 livros (#1 O Divórcio, #8 Barriga de Aluguer); Luísa Sobral (cantora PT) em #2 com estreia literária; Noites Brancas confirma tendência de clássicos curtos | Post "duplo thriller McFadden" + post celebração Luísa Sobral; clássico curto com Noites Brancas |
 | 2026-06-15 | Bertrand/FNAC/Wook pesquisa | Wook 20% desconto em junho; Feira do Livro de Lisboa encerrou a 14/06 — momento "pós-Feira" ativo; FNAC com landing "livros mais antecipados de 2026" | Post UGC: "O que compraste na Feira do Livro?" + sugestões pós-Feira em bookas.pt |
 | 2026-06-15 | TikTok/BookTok PT | Formatos virais confirmados: hook emocional 3 seg, book stack temático, "se gostaste de X"; hashtag mix ideal: 1 viral (#BookTok) + 2-3 nicho (#livrosportugal #BookTokPortugal) + 1 marca (#Bookas) | Aplicar mix de hashtags em todos os próximos posts |
+| 2026-07-06 | TikTok/BookTok PT + Euforia | **Dark Romance доминирует:** «Caro Leitor» Tate James (Euforia, март 2026) вирусный — dark academia + why choose trope + sociedades secretas; Mindf*ck Series (S.T. Abby) новое PT-издание от Desrotina. Хэштеги: #booktokportugal #booktokpt #booktokportugues активны. PNL вышел на TikTok с ежемесячными BookTokers — институциональный буст для сообщества. | Post: «Caro Leitor chegou a Portugal — dark academia. Sociedades secretas. Enemies to lovers.» — hook emocional 3 seg |
+| 2026-07-06 | Portal da Literatura / FNAC / Wook bestsellers julho | **Freida McFadden tsunami лето 2026:** «Prima» (Daniel Silva) #1, но McFadden занимает #2 «Barriga de Aluguer» + «A Criada Está a Ver» + «Querida Debbie» одновременно. 4-5 книг одного автора в чартах — феномен. «Cool Machine» Colson Whitehead анонс 21 июля. | Формат «Summer Thrillers flat lay»: стопка McFadden + «Qual leste primeiro? 👇» для вовлечения |
+| 2026-07-06 | Bertrand / FNAC / Note! / Wook конкурентный анализ | Note! открыл dedicated страницу /collections/booktok (новый ход конкурента); FNAC — «livros mais antecipados 2026» лендинг; Wook — exclusive edition «Caro Leitor». Все три конкурента активно эксплуатируют BookTok-угол. | Bookas: создать хайлайт «BookTok Pick» в IG; еженедельный рубрика «O que o BookTok está a ler» — дифференциация через личный тон |
 
 ---
 
