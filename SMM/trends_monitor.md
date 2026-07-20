@@ -51,14 +51,16 @@
 5. **Unboxing de compras** — "O que comprei na Feira do Livro"
 6. **Rating wrap-up** — итог месяца: что прочитал, оценки
 
-### Жанры в топе (julho 2026):
-- **Dark Romance** (НОВЫЙ #1) — «Caro Leitor» Tate James, Mindf*ck Series; формула: dark academia + enemies to lovers + why choose + sociedades secretas
-- **Thriller psicológico** — Freida McFadden феномен: 4-5 книг одновременно в топ PT; «A Criada Está a Ver», «Barriga de Aluguer», «Querida Debbie»
-- Romance (Colleen Hoover-эффект продолжается)
+### Жанры в топе (julho 2026, обновлено 20 julho):
+- **Romantasy** (ГЛОБАЛЬНЫЙ #1 лето 2026) — TikTok официально опубликовал Summer Reading List 2026; «Daggermouth» H.M. Wolfe + «Alchemised» SenLinYu ведут глобальный BookTok; enemies-to-lovers, royal romance, fake marriages — «те же крюки, что Quarta Asa»
+- **Dark Romance** — «Caro Leitor» Tate James, Mindf*ck Series; формула: dark academia + why choose + sociedades secretas — сохраняет сильную позицию в PT
+- **Thriller psicológico** — Freida McFadden феномен: 5 книг одновременно в топ PT (рекорд); «A Criada Está a Ver», «Barriga de Aluguer», «Querida Debbie»
+- **Lançamento da semana:** «Cool Machine» Colson Whitehead (21 julho) — главный лит. релиз месяца, хайп строится
+- Romance verão (David Nicholls «Você Está Aqui» — автор «Um Dia»; Abby Jimenez «Just for the Summer» глобально вирусный)
 - Thriller português (Rita da Nova)
-- Dark academia / fantasy (Quarta Asa, Rebecca Yaros)
-- Clássicos curtos (A Metamorfose, Noites Brancas — тренд на короткое)
-- Autores portugueses (Saramago, Pessoa, Eça — вечная классика в новой подаче)
+- Dark academia / fantasy (Quarta Asa, Rebecca Yaros, «Forged by Destiny»)
+- Clássicos curtos (A Metamorfose, Noites Brancas — тренд продолжается)
+- Autores portugueses (Afonso Cruz «A Cozinheira do Ditador» — самый ожидаемый PT релиз 2026; Saramago, Pessoa, Eça)
 
 ### TOP 10 mais vendidos — Portugal (15 junho 2026, via Portal da Literatura):
 1. **O Divórcio** — Freida McFadden (thriller psicológico, BookTok queen)
@@ -147,6 +149,7 @@ Tens na tua prateleira? 📚
 | 2026-07-06 | Bertrand / FNAC / Note! / Wook конкурентный анализ | Note! открыл dedicated страницу /collections/booktok (новый ход конкурента); FNAC — «livros mais antecipados 2026» лендинг; Wook — exclusive edition «Caro Leitor». Все три конкурента активно эксплуатируют BookTok-угол. | Bookas: создать хайлайт «BookTok Pick» в IG; еженедельный рубрика «O que o BookTok está a ler» — дифференциация через личный тон |
 | 2026-07-13 | Portal da Literatura / FNAC / Wook bestsellers + TikTok BookTok Newsroom | **McFadden лето 2026 — абсолютный феномен:** 5 книг одновременно в топ-10 у разных PT-ритейлеров (рекорд). «Prima» Daniel Silva удерживает #1, но вся остальная десятка — под влиянием McFadden. **«Cool Machine» Colson Whitehead** выходит 21 июля — хайп строится прямо сейчас (главный литературный релиз июля). **TikTok официально опубликовал BookTok Summer Reading List 2026** — институциональный сигнал для контента. **«Forged by Destiny»** (romantasy) — Bertrand называет «самым ожидаемым romantasy года»: enemies to lovers + slow burn — тот же крючок, что «Quarta Asa». Bertrand активен с рубрикой «книга недели –50%». | 1) «5 livros de McFadden. Qual foi o teu primeiro?» — стопка + вовлечение; 2) «Cool Machine chega a 21 de julho — já tens o teu?» — анонс за 8 дней до релиза; 3) «O BookTok escolheu o verão 2026. Estás na lista?» — привязка к официальному TikTok списку |
 | 2026-07-13 | Bertrand / FNAC конкурентный анализ | Bertrand: блог «Somos Livros» + рубрика «книга недели –50%» (A Place for Mungo — Douglas Stuart); «Forged by Destiny» позиционируется как romantasy #1 года. FNAC: лендинг «Livros mais antecipados 2026» + страница топ-продаж июля. Wook: секция пре-релизов активна. Все три избегают личного тона — делают стандартный промо. | Bookas может выиграть за счёт curatorial voice: «Нашли для тебя следующую книгу» вместо «Купи сейчас». Romantasy hook: пост «Depois de Quarta Asa, precisas deste» + Forged by Destiny |
+| 2026-07-20 | TikTok Newsroom + WebSearch (5 fontes: BookRiot, BuzzFeed, Timeout, FNAC, Portal da Literatura) | **Romantasy официально #1 в BookTok лето 2026:** TikTok опубликовал официальный «Summer Reading List 2026» — «Daggermouth» H.M. Wolfe и «Alchemised» SenLinYu лидеры глобально; enemies-to-lovers, royal romance, fake marriages = ключевые формулы. **СРОЧНО: «Cool Machine» Colson Whitehead выходит ЗАВТРА (21 julho)** — главный лит. анонс июля, хайп уже строится. **David Nicholls «Você Está Aqui»** (автор «Um Dia») — romance de verão с новыми началами, высокий BookTok-потенциал в PT. **Julian Barnes — лауреат Premio Princesa das Astúrias 2026** — культурный момент, литературный авторитет. **Afonso Cruz «A Cozinheira do Ditador»** — самое ожидаемое произведение португальской литературы 2026. **Jeffrey Archer «O Sopro do Tempo»** — в магазинах с 2 июля. Freida McFadden: статья «5 melhores livros» (13/07) поддерживает трафик на феномен. Хэштеги актуальны: #BookTokPortugal #booktokpt #booktokportugues | 1) **СРОЧНО 21/07:** «Cool Machine chega amanhã — o verão literário começa agora» — анонс-пост; 2) «Se choraste com Um Dia, tens de ler "Você Está Aqui"» — hook ностальгия + verão; 3) «O romantasy que o BookTok escolheu para o verão 2026» — когда PT получит Daggermouth/Alchemised; 4) пост-момент Julian Barnes: «O escritor que o mundo reconheceu» (Premio Asturias) |
 
 ---
 
