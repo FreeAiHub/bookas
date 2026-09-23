@@ -3,7 +3,7 @@
 # Использование: bash dashboard/deploy.sh
 set -e
 
-TOKEN="nfp_jY4dEVWzqtSV6GGAPnb6ZoqMxr7XgbbKb3f4"
+TOKEN="$NETLIFY_AUTH_TOKEN"
 SITE_ID="cbe786ff-e330-4e70-9aee-8979011e48ee"
 
 # pnpm: локальный путь или системный
