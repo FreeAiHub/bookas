@@ -45,15 +45,22 @@ def analyze_queue(posts: list) -> dict:
         except (KeyError, ValueError):
             pass
 
-    # Ближайший заблокированный пост (нужны данные от João)
+    # Ближайший заблокированный пост (нужны данные от João).
+    # Срочны только посты, до которых осталось 0-5 дней. Условие days_until <= 5
+    # ловило и просроченные тоже, поэтому в отчёте каждый день висели посты
+    # со сроком «через -114 д.». Просроченные считаем отдельно — это застой,
+    # а не срочность, и по ним нужен один разбор, а не ежедневный отчёт.
     blocked_urgent = []
+    blocked_stale = []
     for p in blocked:
         try:
             dt = datetime.fromisoformat(p["scheduled_at"].replace("Z", "+00:00"))
             days_until = (dt.date() - TODAY).days
-            if days_until <= 5:
-                p["_days_until"] = days_until
+            p["_days_until"] = days_until
+            if 0 <= days_until <= 5:
                 blocked_urgent.append(p)
+            elif days_until < 0:
+                blocked_stale.append(p)
         except (KeyError, ValueError):
             pass
 
@@ -64,6 +71,7 @@ def analyze_queue(posts: list) -> dict:
         "blocked": len(blocked),
         "upcoming_7d": upcoming,
         "blocked_urgent": blocked_urgent,
+        "blocked_stale": blocked_stale,
     }
 
 
